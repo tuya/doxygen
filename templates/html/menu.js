@@ -123,5 +123,6 @@ function initMenu(relPath,searchEnabled,serverSide,searchPage,search) {
     $(window).resize(resetState);
   }
   $('#main-menu').smartmenus();
+  $('body').css('padding-top', $('#top').height() + 'px');
 }
 /* @license-end */
