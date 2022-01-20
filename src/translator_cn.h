@@ -205,7 +205,7 @@ class TranslatorChinese : public Translator
 
     /*! This is put above each page as a link to all related pages. */
     virtual QCString trRelatedPages()
-    { return "相关页面"; }
+    { return "开发者向导"; }
 
     /*! This is put above each page as a link to all examples. */
     virtual QCString trExamples()

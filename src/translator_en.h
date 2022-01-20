@@ -217,7 +217,7 @@ class TranslatorEnglish : public Translator
 
     /*! This is put above each page as a link to all related pages. */
     virtual QCString trRelatedPages()
-    { return "Related Pages"; }
+    { return "Developer Guide"; }
 
     /*! This is put above each page as a link to all examples. */
     virtual QCString trExamples()
